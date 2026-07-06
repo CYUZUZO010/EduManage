@@ -148,7 +148,7 @@ export default function SignupPage() {
 
             <div className="flex items-center space-x-4">
               <Link href="/login">
-                <Button variant="ghost">
+                <Button className="bg-slate-300 hover:bg-slate-400 cursor-pointer">
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Back to Login
                 </Button>
@@ -289,7 +289,7 @@ export default function SignupPage() {
               <p className="text-sm text-slate-600">
                 Already have an account?{" "}
                 <Link
-                  href="/"
+                  href="/login"
                   className="text-indigo-600 hover:text-indigo-700 font-medium"
                 >
                   Login here
